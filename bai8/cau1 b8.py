@@ -1,0 +1,16 @@
+print("Sinh vien:Nguyen Ba Linh")
+print("MSSV:205752020710008")
+
+import turtle
+window = turtle.Screen()
+window.bgcolor('lightgreen')
+painter = turtle.Turtle()
+painter.fillcolor('blue')
+painter.pensize(3)
+def drawsq(t, s):
+    for i in ranger(4):
+        t.forward(s)
+        t.left(90)
+for i in range(1,180):
+        painter.left(90)
+        drawsq(painter, 200)

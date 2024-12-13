@@ -1,0 +1,5 @@
+print("Sinh vien:Nguyen Ba Linh")
+print("MSSV:205752020710008")
+s = input('nhap chuoi:')
+n = print(s.upper())
+print(n)

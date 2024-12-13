@@ -1,0 +1,5 @@
+print("Sinh vien:Nguyen Ba Linh")
+print("MSSV:205752020710008")
+a=input("nhap chuoi: ").split()
+b=a.index('abc')
+print("vi tri cua moi chuoi abc la:",b)
